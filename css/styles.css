@@ -316,7 +316,7 @@ section {
 }
 
 .red_dot {
-  background: linear-gradient(to bottom, #d90647 10%, #f2d095 100%);
+  background: linear-gradient(to bottom, #d90647 10%, #c89e68 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -345,19 +345,19 @@ section {
   background: -moz-linear-gradient(
     top,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90647', endColorstr='#f2d095',GradientType=0 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90647', endColorstr='#c89e68',GradientType=0 ); /* IE6-9 */
   background-repeat: no-repeat;
   color: #ffffff;
   height: 100%;
@@ -498,7 +498,7 @@ nav {
 }
 
 .download-btn {
-  background: linear-gradient(to bottom, #d90647 10%, #f2d095 100%);
+  background: linear-gradient(to bottom, #d90647 10%, #c89e68 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -553,19 +553,19 @@ nav {
   background: -moz-linear-gradient(
     top,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90647', endColorstr='#f2d095',GradientType=0 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90647', endColorstr='#c89e68',GradientType=0 ); /* IE6-9 */
   background-repeat: no-repeat;
   color: #ffffff; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
@@ -642,7 +642,7 @@ nav {
 }
 
 .company-name {
-  background: linear-gradient(to bottom, #d90647 10%, #f2d095 100%);
+  background: linear-gradient(to bottom, #d90647 10%, #c89e68 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -686,17 +686,17 @@ nav {
   background: -moz-linear-gradient(
     top,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* FF3.6-15 */
   background: -webkit-linear-gradient(
     top,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
     #c83023 37%,
-    #f2d095 98%
+    #c89e68 98%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90647', endColorstr='#eb402c',GradientType=0 ); /* IE6-9 */
   background-repeat: no-repeat;
@@ -791,7 +791,7 @@ nav {
 }
 
 .subscribe-btn {
-  background: linear-gradient(to bottom, #d90647 10%, #f2d095 100%);
+  background: linear-gradient(to bottom, #d90647 10%, #c89e68 100%);
   border: none;
   box-shadow: 0 10px 30px rgba(223, 27, 60, 0.3);
   color: #ffffff;
@@ -801,7 +801,7 @@ nav {
   margin-left: -200px;
 }
 .subscribe-btn:hover {
-  background: linear-gradient(to bottom, #d90647 10%, #f2d095 100%);
+  background: linear-gradient(to bottom, #d90647 10%, #c89e68 100%);
   color: #ffffff;
 }
 /* End: Subscribe Section Styling */
@@ -840,7 +840,7 @@ nav {
 }
 
 .links ul li:hover {
-  background: linear-gradient(to bottom, #d90647 10%, #f2d095 100%);
+  background: linear-gradient(to bottom, #d90647 10%, #c89e68 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
