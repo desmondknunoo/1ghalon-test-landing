@@ -1,4 +1,4 @@
-//Get the button:
+// Get the custom button:
 mybutton = document.getElementById("scrollUp");
 
 function scrollFunction() {
@@ -12,7 +12,7 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// When the user clicks on the custom button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
@@ -43,7 +43,7 @@ $(document).ready(function () {
     document.querySelector(".preloader").style.display = "none";
   }, 1000);
 
-  //   Nice Select Initialization
+  // Nice Select Initialization
   $("select").niceSelect();
 });
 
