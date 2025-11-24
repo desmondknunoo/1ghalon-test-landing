@@ -386,7 +386,7 @@ nav {
 }
 
 #navbar ul li:hover {
-  text-decoration: line-through;
+  /*text-decoration: underline 3px; */
 }
 
 /* Sticky Navbar */
