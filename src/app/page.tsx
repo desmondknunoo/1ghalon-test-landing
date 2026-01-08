@@ -138,9 +138,9 @@ export default function LandingPage() {
               <Image
                 src="/1.png"
                 alt="1Ghalon App Screenshot"
-                width={300}
-                height={600}
-                className="max-w-[250px] md:max-w-[300px] drop-shadow-2xl"
+                width={400}
+                height={800}
+                className="max-w-[250px] md:max-w-[400px] drop-shadow-2xl"
                 priority
               />
             </div>
@@ -284,45 +284,46 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-3 gap-12 items-center">
             {/* Left Column - 2 items */}
-            <div className="space-y-12 text-right">
-              <div className="group flex items-center justify-end gap-6 hover:-translate-x-2 transition-transform duration-300">
-                <div>
+            <div className="space-y-12 text-left md:text-right order-1 md:order-none pb-8 md:pb-0">
+              <div className="group flex items-center md:justify-end gap-6 md:hover:-translate-x-2 transition-transform duration-300">
+                <div className="order-2 md:order-1">
                   <h4 className="text-2xl font-bold">Real-time Data</h4>
                   <p className="text-white/90 text-base mt-2 leading-relaxed">
                     Our fuel price information is sourced from CediRates.com, providing you with up-to-date data.
                   </p>
                 </div>
-                <div className="flex-shrink-0 bg-white/10 p-4 rounded-full backdrop-blur-sm group-hover:bg-white/20 transition-colors">
+                <div className="order-1 md:order-2 flex-shrink-0 bg-white/10 p-4 rounded-full backdrop-blur-sm group-hover:bg-white/20 transition-colors">
                   <TrendingUp className="w-8 h-8" />
                 </div>
               </div>
 
-              <div className="group flex items-center justify-end gap-6 hover:-translate-x-2 transition-transform duration-300">
-                <div>
+              <div className="group flex items-center md:justify-end gap-6 md:hover:-translate-x-2 transition-transform duration-300">
+                <div className="order-2 md:order-1">
                   <h4 className="text-2xl font-bold">Locate Stations</h4>
                   <p className="text-white/90 text-base mt-2 leading-relaxed">
                     Easily find the latest fuel prices and locate the nearest fuel stations with just a few taps.
                   </p>
                 </div>
-                <div className="flex-shrink-0 bg-white/10 p-4 rounded-full backdrop-blur-sm group-hover:bg-white/20 transition-colors">
+                <div className="order-1 md:order-2 flex-shrink-0 bg-white/10 p-4 rounded-full backdrop-blur-sm group-hover:bg-white/20 transition-colors">
                   <MapPin className="w-8 h-8" />
                 </div>
               </div>
             </div>
 
             {/* Center - Phone Image */}
-            <div className="flex justify-center order-first md:order-none">
+            <div className="flex justify-center order-2 md:order-none">
               <Image
                 src="/2.png"
                 alt="1Ghalon App"
                 width={325}
                 height={650}
-                className="max-w-[280px] md:max-w-[325px] -mt-24 drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] transform hover:scale-105 transition-transform duration-500"
+                className="max-w-[280px] md:max-w-[325px] md:-mt-24 drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] transform hover:scale-105 transition-transform duration-500"
+                priority
               />
             </div>
 
             {/* Right Column - 2 items */}
-            <div className="space-y-12">
+            <div className="space-y-12 text-left md:text-left order-3 md:order-none">
               <div className="group flex items-center gap-6 hover:translate-x-2 transition-transform duration-300">
                 <div className="flex-shrink-0 bg-white/10 p-4 rounded-full backdrop-blur-sm group-hover:bg-white/20 transition-colors">
                   <Shield className="w-8 h-8" />
