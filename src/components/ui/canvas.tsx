@@ -67,8 +67,8 @@ Line.prototype = {
       // @ts-ignore
       (t = this.nodes[i]),
         0 < i &&
-          // @ts-ignore
-          ((n = this.nodes[i - 1]),
+        // @ts-ignore
+        ((n = this.nodes[i - 1]),
           (t.vx += (n.x - t.x) * e),
           (t.vy += (n.y - t.y) * e),
           (t.vx += n.vx * E.dampening),
@@ -127,9 +127,9 @@ function onMousemove(e) {
   function c(e) {
     e.touches
       ? // @ts-ignore
-        ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY))
+      ((pos.x = e.touches[0].pageX), (pos.y = e.touches[0].pageY))
       : // @ts-ignore
-        ((pos.x = e.clientX), (pos.y = e.clientY)),
+      ((pos.x = e.clientX), (pos.y = e.clientY)),
       e.preventDefault();
   }
   // @ts-ignore
@@ -180,6 +180,14 @@ function resizeCanvas() {
 }
 
 // @ts-ignore
+// Define interface for the canvas node to avoid conflict with DOM Node
+interface CanvasNode {
+  x: number;
+  y: number;
+  vx: number;
+  vy: number;
+}
+
 var ctx,
   // @ts-ignore
   f,
@@ -195,7 +203,9 @@ var ctx,
     dampening: 0.025,
     tension: 0.99,
   };
-function Node() {
+
+// @ts-ignore
+function Node(this: CanvasNode) {
   this.x = 0;
   this.y = 0;
   this.vy = 0;
