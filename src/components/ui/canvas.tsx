@@ -1,3 +1,4 @@
+// Force trigger redeploy with class-based fix
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-var */
